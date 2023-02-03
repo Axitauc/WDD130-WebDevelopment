@@ -1,0 +1,10 @@
+.center {
+  display: block;
+  max-width: max-content;
+  height: 400px;
+}
+
+.configure{
+    max-width: 300px;
+    height: 300px;
+}

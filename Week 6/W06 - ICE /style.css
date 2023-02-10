@@ -1,0 +1,19 @@
+body{
+    background-color: white;
+}
+
+.column{
+    flex:50%
+}
+
+.row{
+    display: flex;
+}
+
+.container1{
+    
+}
+
+.container2{
+    background-color: gray;
+}

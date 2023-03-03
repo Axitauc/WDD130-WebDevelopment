@@ -87,6 +87,18 @@ header {
   margin: 0 auto;
 }
 
+#information-content {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.information-grid {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(20, 1fr);
+  height: 4500px;
+}
+
 nav {
   display: flex;
   justify-content: space-around;
@@ -141,6 +153,7 @@ main section {
 
 main section img {
   box-sizing: border-box;
+  width: 100%;
 }
 
 #background {
@@ -194,6 +207,61 @@ nav a:hover {
   grid-row: 2/3;
 }
 
+.title-river {
+  text-align: center;
+  grid-column: 2/10;
+  grid-row: 2/3;
+  color: #48bfe3;
+  padding-bottom: 100px;
+  font-size: 100px;
+  letter-spacing: 0.5em;
+  font-weight: bold;
+}
+
+.salmon-river-text {
+  grid-column: 1/11;
+  grid-row: 7/8;
+  text-align: justify;
+  text-justify: inter-word;
+  padding: 5%;
+  background-color: #c0e6e6;
+}
+
+.salmon-river-box {
+  grid-column: 1/11;
+  grid-row: 3/7;
+  margin-bottom: 50px;
+}
+
+.gray-canyon-text {
+  grid-column: 1/11;
+  grid-row: 13/14;
+  text-align: justify;
+  text-justify: inter-word;
+  padding: 5%;
+  background-color: #c4cff8;
+}
+
+.gray-canyon-box {
+  grid-column: 1/11;
+  grid-row: 9/13;
+  margin-bottom: 200px;
+}
+
+.grand-canyon-text {
+  grid-column: 1/11;
+  grid-row: 19/20;
+  text-align: justify;
+  text-justify: inter-word;
+  padding: 5%;
+  background-color: #c0e6e6;
+}
+
+.grand-canyon-box {
+  grid-column: 1/11;
+  grid-row: 15/18;
+}
+
 .book,
 .join {
   background-color: #48bfe3;
@@ -234,7 +302,7 @@ footer {
   background-color: white;
   color: black;
   text-decoration: none;
-  padding: 25px 50px;
+  padding: 50px 75px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -245,7 +313,7 @@ footer .social img {
 }
 
 footer p {
-  font-size: 1.2em;
+  font-size: 2em;
 }
 
 footer p a:hover {
@@ -258,6 +326,11 @@ footer p a:hover {
 }
 
 .home-grid {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+}
+
+.river-grid {
   display: grid;
   grid-template-columns: repeat(10, 1fr);
 }
@@ -307,4 +380,37 @@ footer p a:hover {
   footer {
     margin-top: 25px;
   }
+}
+
+/* Boxes Text */
+.contenedor {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.texto-encima {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.centrado {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: xx-large;
+}
+
+/* Images Effects */
+
+.grow img {
+  -webkit-transition: all 2s ease;
+  -moz-transition: all 2s ease;
+  -ms-transition: all 2s ease;
+  transition: all 2s ease;
+}
+.grow img:hover {
+  width: 80%;
+  height: 80%;
 }

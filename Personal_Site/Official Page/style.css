@@ -1,0 +1,51 @@
+/* CSS for Header and Footer */
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap");
+
+#logo_link {
+  padding-top: 5px;
+  justify-self: center;
+  align-self: center;
+}
+
+.logo {
+  width: 12em;
+  height: 3em;
+  border-radius: 3em;
+}
+
+nav {
+  justify-content: space-around;
+  grid-row: 3/8;
+  grid-template-columns: 1/2;
+}
+
+nav a {
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  padding: 35px;
+  display: block;
+  padding: 15px;
+  display: grid;
+}
+
+/* CSS for Body */
+#content {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.background {
+  background-image: url(./images/overhead-portrait-international-students-waiting-test-college-group-university-mates-sitting-floor-with-books-laptops-doing-homework.jpg);
+}
+
+body {
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic,
+    AppleGothic, sans-serif;
+  font-size: 20px;
+  font-weight: 250;
+  line-height: 30px;
+  margin: 0;
+  padding: 0;
+}

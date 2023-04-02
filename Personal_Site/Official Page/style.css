@@ -14,6 +14,12 @@
   margin: auto;
 }
 
+#total3 {
+  max-width: 1600px;
+  height: 2400px;
+  margin: auto;
+}
+
 .end1 {
   height: 400px;
   max-width: 1600px;
@@ -100,6 +106,18 @@
   max-width: 1600px;
 }
 
+#display2 {
+  background-image: url("./images/Portada3.jpg");
+  display: grid;
+  max-width: 1600px;
+}
+
+#subdisplay2 {
+  display: grid;
+  max-width: 1600px;
+  height: 400px;
+}
+
 #bar {
   max-width: 1600px;
   height: 100px;
@@ -129,6 +147,16 @@ nav {
   display: grid;
   grid-template-columns: repeat(10, 160px);
   grid-template-rows: repeat(10, 54px);
+}
+
+#portada3 {
+  display: grid;
+  max-width: 1600px;
+  height: 960px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(10, 160px);
+  grid-template-rows: repeat(20, 48px);
 }
 
 #logo_link {
@@ -168,6 +196,14 @@ body {
   height: 1700px;
   grid-template-columns: repeat(32, 50px);
   grid-template-rows: repeat(17, 100px);
+}
+
+#cuerpo3 {
+  height: 800px;
+  max-width: 1600px;
+  display: grid;
+  grid-template-columns: repeat(64, 25px);
+  grid-template-rows: repeat(16, 50px);
 }
 
 /* Bar Buttoms CSS */
@@ -275,6 +311,102 @@ body {
   grid-row: 10/15;
 }
 
+.img_flag_adjustments {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+.locate_flag_us {
+  display: grid;
+  grid-column: 10/16;
+  grid-row: 1/5;
+}
+
+.locate_flag_mexico {
+  display: grid;
+  grid-column: 20/26;
+  grid-row: 1/5;
+}
+
+.locate_flag_canada {
+  display: grid;
+  grid-column: 30/36;
+  grid-row: 1/5;
+}
+
+.locate_flag_china {
+  display: grid;
+  grid-column: 40/46;
+  grid-row: 1/5;
+}
+
+.locate_flag_france {
+  display: grid;
+  grid-column: 50/56;
+  grid-row: 1/5;
+}
+
+.locate_flag_brazil {
+  display: grid;
+  grid-column: 10/16;
+  grid-row: 6/10;
+}
+
+.locate_flag_england {
+  display: grid;
+  grid-column: 20/26;
+  grid-row: 6/10;
+}
+
+.locate_flag_uk {
+  display: grid;
+  grid-column: 30/36;
+  grid-row: 6/10;
+}
+
+.locate_flag_japan {
+  display: grid;
+  grid-column: 40/46;
+  grid-row: 6/10;
+}
+
+.locate_flag_south_korea {
+  display: grid;
+  grid-column: 50/56;
+  grid-row: 6/10;
+}
+
+.locate_flag_portugal {
+  display: grid;
+  grid-column: 10/16;
+  grid-row: 11/15;
+}
+
+.locate_flag_deutch {
+  display: grid;
+  grid-column: 20/26;
+  grid-row: 11/15;
+}
+
+.locate_flag_south_africa {
+  display: grid;
+  grid-column: 30/36;
+  grid-row: 11/15;
+}
+
+.locate_flag_finland {
+  display: grid;
+  grid-column: 40/46;
+  grid-row: 11/15;
+}
+
+.locate_flag_peru {
+  display: grid;
+  grid-column: 50/56;
+  grid-row: 11/15;
+}
+
 .mainstatement1 {
   grid-column: 2/10;
   grid-row: 7/9;
@@ -305,6 +437,33 @@ body {
   letter-spacing: 5px;
 }
 
+.mainstatement3 {
+  grid-column: 1/4;
+  grid-row: 6/8;
+  font-size: 70px;
+  padding-left: 100px;
+  text-align: left;
+  font-weight: 900;
+  color: white;
+  letter-spacing: 5px;
+}
+
+.mainstatement4 {
+  grid-column: 7/10;
+  grid-row: 6/8;
+  font-size: 70px;
+  padding-left: 25px;
+  text-align: left;
+  font-weight: 900;
+  color: white;
+  letter-spacing: 5px;
+}
+
+.statement3 {
+  display: grid;
+  grid-template-columns: repeat(10, 160px);
+  grid-template-rows: repeat(8, 50px);
+}
 /* CSS */
 .button-9 {
   grid-column: 5/7;
@@ -429,6 +588,22 @@ h1 {
   font-family: system-ui, sans-serif;
   font-size: 50px;
   cursor: pointer;
+}
+
+.text_page_3_1 {
+  grid-column: 3/9;
+  grid-row: 3/4;
+  font-size: 45px;
+  text-align: center;
+  padding-top: 30px;
+  font-weight: 900;
+}
+
+.text_page_3_2 {
+  grid-column: 2/10;
+  grid-row: 5/6;
+  text-align: justify;
+  font-size: 22px;
 }
 
 .container {
